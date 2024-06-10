@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Ordering Application</title>
+    <link rel="icon" type="image/x-icon" href="/Images/restaurant-icon.webp" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="app-container">
+      <header id="header">
+        <div id="restaurant-info">
+          <p id="title">Jimmy's Diner</p>
+          <p id="sub-title">The best burgers and pizzas in town.</p>
+        </div>
+      </header>
+
+      <div id="items"></div>
+
+      <div id="form-wrapper">
+        <p id="form-title">Enter card details</p>
+        <form id="form">
+          <input type="text" id="client-name" required placeholder="Enter your name">
+          <input type="text" inputmode="numeric" id="card-number" required placeholder="Enter card number" maxlength="16" minlength="16" pattern="[0-9\s]{13,19}">
+          <input type="text" inputmode="numeric" id="cvv" required placeholder="Enter your cvv" minlength="3" maxlength="3">
+          <button type="submit" id="submit-btn">Pay</button>
+        </form>
+      </div>
+      <div id="order-confirmed">
+        <p>Thanks, James! Your order is on the way</p>
+      </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+    <script src="data.js" type="module"></script>
+  </body>
+</html>

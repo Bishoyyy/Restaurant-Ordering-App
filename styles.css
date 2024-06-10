@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-image: url(Images/ferks-guare-KEZdWfYD-ow-unsplash\ 1.png);
+  background-size: cover;
+  width: 100%;
+  height: 167px;
+  color: #ffffff;
+  font-family: "Smythe", system-ui;
+}
+
+#items {
+  font-family: "Smythe", system-ui;
+}
+#app-container {
+  position: relative;
+}
+
+#restaurant-info {
+  padding: 40px 0px 0px 50px;
+}
+
+#title {
+  font-size: 39px;
+}
+
+#sub-title {
+  font-size: 23px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px #d2d2d2;
+  width: 80%;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-left-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.item-right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-icon {
+  font-size: 78px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-name {
+  font-size: 28px;
+  color: #000000;
+}
+
+.item-ingredients {
+  font-size: 16px;
+  color: #8b8b8b;
+}
+
+.item-price {
+  font-size: 20px;
+  color: #000000;
+  padding-top: 10px;
+}
+
+.add-btn {
+  background-color: white;
+  border: solid 1px #dedede;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-text {
+  font-family: "Courier";
+  font-size: 32px;
+  color: #3c3c3c;
+  font-weight: 100;
+  pointer-events: none;
+}
+
+.order-title {
+  font-size: 28px;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.order-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 80%;
+  align-items: center;
+}
+
+.order-left-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ordered-item-name {
+  font-size: 28px;
+}
+
+.remove-order-btn {
+  font-size: 12px;
+  color: #bbbbbb;
+}
+
+.ordered-item-price {
+  font-size: 20px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  border-top: solid 2px #393333;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.total-price-text {
+  font-size: 28px;
+}
+
+.total-price-value {
+  font-size: 20px;
+}
+
+.order-btn {
+  width: 80%;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: #16db99;
+  padding: 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#form-wrapper {
+  width: 524px;
+  height: 543px;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: 0px 0px 6px 2px #666;
+  display: none;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 60px;
+}
+
+#form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: solid 1px #757575;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+input::placeholder {
+  font-size: 20px;
+  text-align: left;
+}
+
+#submit-btn {
+  padding: 20px;
+  border-radius: 3px;
+  background-color: #16db99;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 2 0px;
+}
+
+#order-confirmed {
+  width: 504px;
+  height: 120px;
+  background-color: #ecfdf5;
+  font-family: "Smythe", system-ui;
+  font-size: 32px;
+  color: #065f46;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  border-radius: 5px;
+  display: none;
+}
